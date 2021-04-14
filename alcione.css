@@ -1,0 +1,136 @@
+body {
+    font-family: Arial;
+    color: #57595c;
+    margin: 0;
+    transition: 1.5s
+  }
+  
+  .caixa1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background: url(background.png);
+    background-size: cover;
+  }
+  
+  .menu {
+    text-align: right;
+    padding-right: 40px;   
+  }
+  
+  .caixa2 {
+    background: #d3c619f5;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .caixa3 {
+    height: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  .perfil {
+    height: 150px;
+    border-radius: 100px;
+  }
+  .gameover {
+      height:500px;
+      display: flex;
+      margin-right: 350px;
+      margin-left: 650px;
+      text-align: center;
+  }
+  
+  .linkmenu {
+    text-decoration: none;
+    color: #4a566e;
+    margin-left: 20px;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: white;
+  }
+
+  .alternativas{
+    text-align: center;
+    margin-left: 750px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: relative;
+  }
+  
+  .habilidade {
+    background: white;
+    width: 350px;
+    height: 650px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .titulohabilidades {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .titulocontato {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .botao {
+    color: white;
+    background: rgb(10, 172, 10);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .outroscontatos {
+    padding-top: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+  
+    .habilidade {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 30px;
+    }
+  }

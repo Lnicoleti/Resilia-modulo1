@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrida Presidencial - Resilia</title>
+  
+    <title>Projeto módulo 1 - Resilia </title>
+    <link rel="stylesheet" href="pericles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script scr="main.js"></script>
+</head>
+<body>
+ <div class="caixa1" id="sobre">
+      <div class="menu">
+        <a href="index.html" class="linkmenu"> Voltar </a>
+      </div>
+
+      <h1>Péricles</h1>
+      <img src="pericao.gif" class="perfil" onclick="anoitecer()">
+    </div>
+
+    <div class="caixa2" id="habilidades">
+      <h2 class="titulohabilidades" id="precandidatura">Pré-candidatura</h2>
+      <p id ="precandidatura"> Para confirmar a candidatura nas eleições você precisa confirmar que é o péricles, já temos seu CPF e RG, mas indique para nós qual é 
+        sua data de nascimento para darmos sequência para o 1º turno, atenção se você errar não será elegível! <br>
+        DICA: DÊ um google!
+      </p>
+      <div id="alternativas">
+        <button onclick="Correto()" class ="alternativas" id='fase2'>22 de junho de 1969</button> <br><br>
+        <button onclick="errou()" class ="alternativas"  id='btn'>24 de janeiro de 1972</button> <br><br>
+        <button onclick="errou()" class ="alternativas" id='btn'>27 de novembro de 1968</button> <br><br>
+        <button onclick="errou()" class ="alternativas" id='btn'>26 de agosto de 1969</button> <br><br>
+      </div>
+      <div class="container">       
+    </div>
+
+    <script> 
+    function anoitecer() {
+        document.body.style.background = "#333333"; 
+        document.body.style.colour = "#FFFFFF"; 
+    }
+    </script>
+
+
+</body>
+</html>
